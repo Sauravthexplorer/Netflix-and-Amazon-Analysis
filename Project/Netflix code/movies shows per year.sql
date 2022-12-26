@@ -1,0 +1,1 @@
+select release_year,type,count(type)as number_of_movies_or_shows from netflix group by 1,2  order by 1 desc
